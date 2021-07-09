@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var textLabel: UITextField!
-    @IBOutlet weak var showLabel: UILabel!
+    @IBOutlet weak var textLabel: UITextField! //文字輸入框
+    @IBOutlet weak var showLabel: UILabel! //印在airpods的文字
     
     
     //點空白處收鍵盤
@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    //EditingChanged
     @IBAction func enterText(_ sender: UITextField) {
         showLabel.text = sender.text
         

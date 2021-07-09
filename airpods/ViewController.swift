@@ -24,14 +24,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     
     //EditingChanged
     @IBAction func enterText(_ sender: UITextField) {
         showLabel.text = sender.text
-        
     }
     
 }
